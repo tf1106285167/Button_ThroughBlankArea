@@ -55,7 +55,6 @@
     content3Label.numberOfLines = 0;
     content3Label.text = @"只需反馈一次,\n问题就能解决";
     [self.view addSubview:content3Label];
-
 }
 
 -(void)imgAction:(UIButton *)btn{
@@ -97,6 +96,7 @@
     }
 }
 
+/** 颜色转换*/
 -(NSInteger)redName:(NSInteger)red WithGreenName:(NSInteger)green WithBlueName:(NSInteger)blue{
     
     return (0xFF << 24) | (red << 16) | (green << 8) | blue;
